@@ -1,0 +1,4 @@
+// JavaScript to handle button functionality
+document.getElementById('learnMoreButton').addEventListener('click', () => {
+  alert('Thank you for your interest! More features coming soon.');
+});

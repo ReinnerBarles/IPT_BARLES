@@ -1,0 +1,125 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+}
+
+/* Button Styling - at the top of the page */
+.normal-button {
+    display: inline;
+    margin: 20px auto;
+    padding: 12px 30px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Hover and Active State */
+.normal-button:hover {
+    background-color: #020202;
+    transform: translateY(-2px);
+}
+
+.normal-button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for Bio-Data Form */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow around the form */
+    text-align: center;
+}
+
+/* Heading Style */
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* Photo Box Styling */
+.photo-box {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #3498db; /* Blue border for the photo */
+    display: inline-block;
+}
+
+.photo-box img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Round the image */
+}
+
+/* Section Title Styling */
+.section-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: left;
+    border-bottom: 2px solid #3498db; /* Blue underline for section titles */
+    padding-bottom: 5px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+table td {
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd; /* Subtle border between table rows */
+}
+
+.table .label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .photo-box {
+        margin-bottom: 15px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
